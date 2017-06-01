@@ -56,6 +56,7 @@ var orm = {
       if (err) {
         throw err;
       }
+      console.log(queryString);
       cb(result);
     });
 },
@@ -75,7 +76,7 @@ var orm = {
       if (err) {
         throw err;
       }
-
+        console.log(queryString);
       cb(result);
     });
   }
